@@ -35,6 +35,8 @@ public class SwitchDemo {
 			num = num1 / num2;
 			System.out.println("Result : " + num);
 			break;
+		 default:
+             System.out.println("Invalid operator");
 		}
 	}
 
