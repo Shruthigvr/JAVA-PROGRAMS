@@ -1,0 +1,28 @@
+package javaprograms;
+
+public class AccessModifierDemo {
+	
+	public int publicVariable=1;
+	int defaultVariable=2;
+	private int privateVariable=3;
+	protected int protectedVariable=4;
+	
+	public static void main(String[] args) {
+		AccessModifierDemo am= new AccessModifierDemo();
+		am.defaultMethod();
+	}
+
+	public void publicMethod() {
+		System.out.println("Public Method");
+	}
+	 public void defaultMethod() {
+		System.out.println("Default Method");
+	}
+	 
+	 private void privateMethod() {
+			System.out.println("Private Method");
+		}
+	 protected void protectedMethod() {
+			System.out.println("Protected Method");
+		}
+}
